@@ -22,22 +22,28 @@
             </div>
         </div>
         <div class="buttons">
-            <button class="square button" type="button">
+            <button class="square button" type="button" id="rock" value="rock">
                 <div class="options">✊</div>
             </button>
-            <button class="square button" type="button">
+            <button class="square button" type="button" id="paper" value="paper">
                 <div class="options">✋</div>
             </button>
-            <button class="square button" type="button">
+            <button class="square button" type="button" id="scissors" value="scissors">
                 <div class="options">✌️</div>
             </button>
         </div>
+        <div class="score-caption">
+            <p class="current-state" id="game-text">Begin...</p>
+        </div>
         <div class="scoreboard">
             <div class="score-box">
-                <p class="player-score">Player Score: 0</p>
+                <p class="player-score">Player Score: <span id='player-score'>0</span></p>
             </div>
             <div class="score-box">
-                <p class="computer-score">Computer Score: 0</p>
+                <p class="tie-score">Tied Score: <span id="tie-score">0</span></p>
+            </div>
+            <div class="score-box">
+                <p class="computer-score">Computer Score: <span id="computer-score">0</span></p>
             </div>
         </div>
         <div class="footer">
@@ -46,5 +52,6 @@
                 <i class="fab fa-github"></i>
             </a>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
