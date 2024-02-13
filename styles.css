@@ -6,7 +6,6 @@
 
 body {
     background-image: url("./images/wrinkled_paper.jpg");
-    /* background-color: #0d0d0d; */
   }
 
 .game-title, .pick-choices, .footer-items, .fa-github {
