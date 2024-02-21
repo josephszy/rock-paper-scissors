@@ -16,7 +16,7 @@ const buttons = document.querySelectorAll('.square-button')
 
 rock.addEventListener('click', () => getPlayerChoice('rock'))
 paper.addEventListener('click', () => getPlayerChoice('paper'))
-scissors.addEventListener('click', () => getPlayerChoice('scissor'))
+scissors.addEventListener('click', () => getPlayerChoice('scissors'))
 restartBtn.addEventListener('click', restartGame)
 
 /* Functions for the game */
